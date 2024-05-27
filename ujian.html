@@ -1,0 +1,361 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujian</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="home2.css">
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light shadow-lg fixed-top"
+    >
+      <div class="container">
+        <img src="gambar/polmed.png" alt="Logo" width="150">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-left" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item fw-bold text-warning">
+              <a class="nav-link" href="home2.html">Home</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link" href="materi.html">Materi</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link text-warning" href="ujian.html">Ujian</a>
+            </li>
+            <li class="nav-item fw-bold">
+                <a class="nav-link text-danger" href="logout.php">keluar</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- p1 -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h3 class="fw-bold">Selamat datang di tes ini</h3>
+        <p>Sebelum Anda memulai, ingatlah bahwa setiap langkah adalah bagian dari perjalanan belajar. Berikan yang terbaik dari diri Anda 
+          dan percayalah pada kemampuan Anda. Jangan khawatir tentang hasilnya, fokuslah pada prosesnya. Semoga sukses!
+        </p>
+      </div>
+      <!--buat data diri-->
+      <form action="quiz.php" method="post">
+        <div class="card" id="quiz">
+          <div class="card-header fw-bold">Masukkan Nama Dan NIM Sebelum Mengisi tes</div>
+          <input type="text" placeholder="Masukkan Namamu" name="nama">
+          <input type="text" placeholder="Masukkan Nim" name="nim">
+          <!-- quiz -->
+      <div class="card" id="quiz">
+        <div class="card-header">Pertanyaan 1</div>
+        <div class="card-body">
+          <p>Apa dampak kesenjangan gender terhadap pembentukan sumber daya manusia unggul pada hak pendidikan?</p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q1" id="q1_r1" value="a">
+            <label class="form-check-label" for="q1_r1">
+              Pendidikan menjadi lebih terfokus
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="b">
+            <label class="form-check-label" for="q1_r2">
+              Mendorong persaingan sehat di antara siswa
+            </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="c">
+              <label class="form-check-label" for="q1_r3">
+                Menghambat penciptaan lingkungan pembelajaran yang inklusif dan merata.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="q1" id="q1_r2" value="d">
+              <label class="form-check-label" for="q1_r3">
+                Memperkuat hubungan antara guru dan siswa
+              </label>
+            </div>
+           </div>
+          <!-- p2 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 2</div>
+              <div class="card-body">
+                <p>Apa yang dimaksud dengan kekerasan gender di semua tingkatan pendidikan?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Kekerasan yang terjadi hanya pada wanita.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Kekerasan yang berdasarkan jenis kelamin.
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Kekerasan yang terjadi di luar lingkungan pendidikan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q2" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Kekerasan yang hanya terjadi pada anak-anak
+                    </label>
+                  </div>
+              </div>
+              <!-- p3 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 3</div>
+              <div class="card-body">
+                <p>Identifikasi individu/kelompok yang lebih rentan terhadap kekerasan merupakan bagian dari strategi pencegahan yang 
+                  efektif. Apa yang menjadi landasan identifikasi tersebut?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Faktor ekonomi
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Faktor sosial
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Tipologi kekerasan dan dampaknya pada individu
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q3" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Tingkat pendidikan
+                    </label>
+                  </div>
+              </div>
+              <!-- p4 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 4</div>
+              <div class="card-body">
+                <p>Prinsip apa yang harus diterapkan secara konsisten dalam akses pendidikan bagi semua individu untuk menciptakan 
+                  lingkungan belajar yang adil dan inklusif?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q4" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Prinsip seleksi
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q4" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Prinsip kesetaraan dan keadilan
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Prinsip kompetisi
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q4" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Prinsip segregasi
+                    </label>
+                  </div>
+              </div>
+              <!-- p5 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 5</div>
+              <div class="card-body">
+                <p>Apa pola relasi antara pelaku dan korban dalam konteks kekerasan seksual?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q5" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Pola hubungan yang harmonis
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q5" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Pola hubungan yang bersifat simbiosis
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Pola hubungan yang berbasis pada penghormatan dan kesetaraan
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q5" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Pola hubungan yang didominasi oleh pelaku dengan korban
+                    </label>
+                  </div>
+              </div>
+              <!-- p6 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 6</div>
+              <div class="card-body">
+                <p>Apa yang menjadi dampak traumatis dari kekerasan seksual?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q6" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Kenaikan tingkat kepercayaan diri
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q6" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Penurunan kualitas hidup
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Peningkatan rasa aman
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q6" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Penurunan risiko gangguan psikologis
+                    </label>
+                  </div>
+              </div>
+              <!-- p7 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 7</div>
+              <div class="card-body">
+                <p>Bagaimana pentingnya respon yang mendukung dan empati terhadap korban kekerasan seksual dalam konteks penanganan 
+                  kasus tersebut?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q7" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Tidak penting, korban harus menyelesaikan masalahnya sendiri
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q7" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Sangat penting untuk memberikan dukungan yang sesuai
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Tidak perlu memberikan respon, korban bisa melupakannya seiring waktu
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q7" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Penting untuk menyalahkan korban atas kejadian tersebut
+                    </label>
+                  </div>
+              </div>
+              <!-- p8 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 8</div>
+              <div class="card-body">
+                <p>Apa yang menjadi fokus utama dalam pembangunan lingkungan pendidikan yang sehat, aman, dan nyaman?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q8" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Meningkatkan persaingan di antara siswa
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q8" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Membangun budaya inklusi dan kesetaraan
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Meningkatkan anggaran untuk fasilitas fisik
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q8" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Menegakkan aturan yang ketat
+                    </label>
+                  </div>
+              </div>
+              <!-- p9 -->
+            <div class="card" id="quiz">
+              <div class="card-header">Pertanyaan 9</div>
+              <div class="card-body">
+                <p>Bagaimana kekerasan seksual dapat menjadi hambatan terhadap penciptaan lingkungan pembelajaran yang inklusif dan merata?</p>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q9" id="q1_r1" value="a">
+                  <label class="form-check-label" for="q1_r1">
+                    Meningkatkan keadilan dalam akses pendidikan
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q9" id="q1_r2" value="b">
+                  <label class="form-check-label" for="q1_r2">
+                    Mendorong kerjasama antar siswa
+                  </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q9" id="q1_r2" value="c">
+                    <label class="form-check-label" for="q1_r3">
+                      Mengganggu keamanan dan kenyamanan siswa
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q9" id="q1_r2" value="d">
+                    <label class="form-check-label" for="q1_r3">
+                      Meningkatkan partisipasi siswa dalam kegiatan ekstrakurikuler
+                    </label>
+                  </div>
+                  <br>
+                  <button class="btn btn-primary " id="submit">Submit</button>
+              </div>
+        </div>
+      </div>
+    </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
